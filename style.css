@@ -1,26 +1,19 @@
-table {
-	display: table;
-}
-table tr {
-	display: table-cell;
-}
-table tr td {
-	display: block;
-}
-
-
-
-
-
-
-
-
 table{
   font-size: 1.5em;
   font-family: serif;
+  color: black;
+}
+table tr:nth-child(odd){
   background-color: lightgrey;
 }
+table tr:nth-child(even){
+  background-color: white;
+}
 
+table th{
+  color: white;
+  background-color: black;
+}
 
 body {
   background-color: lightskyblue;
@@ -36,7 +29,11 @@ color: black;
 }
 
 footer{
-color: whitesmoke;
+color: teal;
+position: relative;
+bottom: 0;
+width: 100%;
+height: 2.5rem;
 }
 
 nav{
