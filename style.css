@@ -38,6 +38,26 @@ height: 2.5rem;
 
 nav{
 color: teal;
+list-style-type: none;
+}
+nav li{
+  border-bottom-style: ridge;
+  border-color: teal;
+}
+nav li:hover {
+  background-color: lightblue;
+}
+a:link{
+  color: teal;
+  text-decoration: none
+}
+a:visited{
+  color: teal;
+  text-decoration: none
+}
+a:active{
+  color: teal;
+  text-decoration: none;
 }
 
 main{
