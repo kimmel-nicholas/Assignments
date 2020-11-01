@@ -65,7 +65,6 @@ main{
 color: black;
 }
 
-
 .wrapper {
         display: grid;
         grid-gap: 6px;
@@ -109,6 +108,34 @@ color: black;
         grid-column: col / span 3;
         grid-row: row 3;
     }
+    .collapsible {
+        background-color:teal;
+        color:black;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+    }
+
+    .active, .collapsible:hover {
+        background-color: aqua;
+    }
+
+    .content {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: aquamarine;
+    }
+
+
+
+
+
+
 
 @media screen and (max-width: 500px) {
   table{
@@ -207,5 +234,27 @@ color: black;
     .e {
         grid-column: col;
         grid-row: row 5;
+    }
+    .collapsible {
+        background-color:teal;
+        color:black;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+    }
+
+    .active, .collapsible:hover {
+        background-color: aqua;
+    }
+
+    .content {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: aquamarine;
     }
 }
