@@ -7,9 +7,15 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <div class="wrapper">
+
+      <div class="box a">
 
      <header><img src= "images/bannerImageIntProg.jpg" width = "100%" height = "125"></header>
+      </div>
+      <div class="box b">
     <nav>
+      
     <u1>
       <li><a href="index.html">Home</a></li>
       <li><a href="page1ThingsIveLearned.html">Assignment 1 - Things I've Learned</a></li>
@@ -17,26 +23,27 @@
       <li><a href="page3Form.html">Assignment 2 - Form</a></li>
       <li><a href="https://www.columbusstate.edu/">Columbus State University Homepage</a></li>
     </u1>
-
     </nav>
+    </div>
 
     <main>
+      <div class="box c">
           <h3>Registration Form</h3>
 
           <form action = "https://webdevbasics.net/scripts/yoga.php" method = POST onsubmit="return passwordLength()" name = "form">
 
             <label>First name: </label><br/>
-            <input type="text"  placeholder ="Enter first name here" size="40" maxlength="20" id = "fname" required><br/>
+            <input type="text"  placeholder ="Enter first name here" size="30" maxlength="20" id = "fname" required><br/>
 
             <label>Last name: </label><br/>
-            <input type="text" placeholder ="Enter last name here" size="40" maxlength="20" id = "lname" required><br/>
+            <input type="text" placeholder ="Enter last name here" size="30" maxlength="20" id = "lname" required><br/>
 
             <label>Email:</label><br/>
-            <input type="email" placeholder = "Enter a valid email here" size="40" maxlength="30" id= "email" required><br/>
+            <input type="email" placeholder = "Enter a valid email here" size="30" maxlength="30" id= "email" required><br/>
 
             <label>Phone Number:</label><br/>
-            <input type="tel" placeholder = "Enter your phone number here" size="40" maxlength="15" id= "phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-            <small>Format: 123-456-7890</small><br/>
+            <input type="tel" placeholder = "Enter your phone number here" size="30" maxlength="15" id= "phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br/>
+            <small>(Format: 123-456-7890)</small><br/>
 
 
             <label>State: </label><br/>
@@ -50,15 +57,25 @@
             <input type="date" required><br/>
 
             <label>Desired Username: </label><br/>
-            <input type="text"  placeholder ="Enter username here" size="40" maxlength="20" id = "username" required><br/>
+            <input type="text"  placeholder ="Enter username here" size="30" maxlength="20" id = "username" required><br/>
 
             <label>Set Password: </label><br/>
-            <input type="password"  placeholder ="Enter password here" size="40" maxlength="40" id="password" required><br/><br/>
+            <input type="password"  placeholder ="Enter password here" size="30" maxlength="40" id="password" required><br/><br/>
 
             <input type="submit" value = "submit">
+          
+          </div>
           </form>
-        </main>  
+          
+          </main>
+
+        
+        <div class = "box d">
+            <p>Add page 3 to your site. Update the nav on each page. Page 3 will have a form and JavaScript form validation.</p>
+          </div> 
+           
     
+    <div class="box e">
 
     <footer>
 
@@ -66,6 +83,8 @@
         | Location: Big Building #3</p>
         
     </footer>
+    </div>
+    </div>
 
 
 
